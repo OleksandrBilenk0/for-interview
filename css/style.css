@@ -1,0 +1,136 @@
+.text2 img{
+    top: 57px;
+    width: 560px;
+    position: absolute;
+    left: 50%;
+    margin-left: 10px;
+    z-index: 6;
+    margin-top: -150px;
+}
+.text2 div{
+    top: 140px;
+    left: 100px;
+    display:none;
+}
+
+button input {
+    border: none;
+    cursor: pointer;
+}
+
+button input:active {
+    border: none;
+    cursor: pointer;
+}
+header, .block3 .image p{
+    background-color: rgb(253, 51, 191);
+}
+.text6 input[name="name"] {
+    background: rgba(253, 51, 191, 0.4) url('img/icon1-form.png') no-repeat scroll 10px center;
+}
+.text6 input[name="phone"] {
+    background: rgba(253, 51, 191, 0.4) url('img/icon1-form.png') no-repeat scroll 10px center;
+}
+.block1-left .text1{
+    background: transparent url('../img/block1-480.png') no-repeat scroll left top;
+    background-position: 50%;
+    background-size: 100%;
+}
+.text13 p{
+    display: none;
+}
+.text191{
+    display: none;
+    margin: auto;
+    width: 320px;
+    padding: 20px 0px;
+}
+
+.x_order_form {
+    width: 333px;
+}
+
+@media screen and (max-width: 1000px){
+    .text2 img {
+        top: 100px;
+        width: 560px;
+        position: relative;
+        left: 0;
+        z-index: 6;
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .text2 img {
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .text15 h1{
+        font-size: 42px;
+        padding-bottom: 30px;
+    }
+    .display{
+        display: none!important;
+    }
+    .text191{
+        display: block;
+    }
+    .block1-left .text1{
+        background: none;
+    }
+    .block1-left .text2{
+        display: block;
+        height: 240px;
+    }
+    .text2 div{ 
+        top:270px;
+    }
+    .block1-left .text2 img{
+        width: 260px;
+        position: relative;
+        left: 0%;
+        margin-left: -60px;
+        z-index: 0;
+        margin-top: 77px;
+    }
+    .block2-right .text3 {
+        
+        margin-top: -120px;
+    }
+    .contact {
+        display: block;
+        }
+    .block5_slider_item_quote1{
+        top: 267px;
+    }
+    .block5_slider_item{
+        height: 481px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .block1-left .text2 img{
+
+        margin-top: 117px;
+    }
+
+    .x_order_form {
+        width: unset;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .text13 p{
+        margin-top: -120px;
+        margin-left: 115px;
+    }
+    .block2-right .text3{
+        margin-top: -250px;
+        margin-left: 120px;
+    }
+    .block1-left .text2 img {
+        margin-top: 131px;
+    }
+}
